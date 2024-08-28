@@ -1,4 +1,4 @@
-setwd("C:/Users/franc/OneDrive/Documents/Data Science/WK5/GitHub5")
+# R Code
 library(caret)
 library(dplyr)
 library(pROC)
@@ -10,7 +10,8 @@ summary(credit1)
 
 missing = credit1 %>% summarise_all(funs(sum(is.na(.))/n()))
 missing
-# Lets remove the ID variable it is not needed
+
+# Let's remove the ID variable it is not needed
 credit=credit1[,-1]
 
 # There are some categories with very few observations. Let's group them together.
@@ -41,7 +42,6 @@ coords(glm.roc, "best", "threshold")
 pred_default = factor(ifelse(pred >=0.5, "Yes", "No"))
 credit$default.payment.next.month = factor(ifelse(credit$default.payment.next.month==1, "Yes","No"))
 confusionMatrix(pred_default, credit$default.payment.next.month, positive = "Yes")
-
 
 glm.roc2 = prediction(pred, credit$default.payment.next.month)
 glm.roc2a = performance(glm.roc2, "tpr", "fpr")
