@@ -1,12 +1,14 @@
 # Forecasting Credit Card Defaults
-The question we want to answer: What is the probability of a client defaulting on their next month's credit card payment?
+**The question we want to answer:** 
 
-# Data Visuals 
+What is the probability of a client defaulting on their next month's credit card payment?
 
+# Conclusion 
+
+# Recommendations
+
+# Summary of Insights
 
 # Metrics
 
-# Summary of insights
-
-# Recomendations and Next Steps
-
+# Data Visuals 
