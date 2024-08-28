@@ -3,12 +3,12 @@
 
 What is the probability of a client defaulting on their next month's credit card payment?
 
-# Conclusion 
+## Conclusion 
 
-# Recommendations
+## Recommendations
 
-# Summary of Insights
+## Summary of Insights
 
-# Metrics
+## Metrics
 
-# Data Visuals 
+## Data Visuals 
