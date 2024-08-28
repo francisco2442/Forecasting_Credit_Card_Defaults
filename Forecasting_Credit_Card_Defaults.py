@@ -1,14 +1,10 @@
-# Forecasting Credit Card Defaults
-
+# Python Code
 # import modules
 import pandas as pd
 import os
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score,classification_report, precision_recall_curve, confusion_matrix
 from sklearn.model_selection import train_test_split
-
-# Setup working directory
-os.chdir("C:/Users/franc/OneDrive/Documents/Data Science/WK5/GitHub5/")
 
 # Import data
 credit = pd.read_csv("creditcard.csv")
@@ -28,7 +24,7 @@ missing_values = credit1.isnull().sum()
 print(missing_values)
 # no missing values in the data set
 
-# data cleaning, merging categorical variables with few observation
+# data cleaning, merging categorical variables with few observations
 print(credit1)
 # recording new education column
 credit1['EDUCATION'] = credit1['EDUCATION'].replace({0:4, 5:4, 6:4})
@@ -60,11 +56,11 @@ model = LogisticRegression()
 # fit the model to the training data
 model.fit(x_train, y_train)
 
-# making predictions on the test data
+# Making predictions on the test data
 y_pred = model.predict(x_test)
 y_pred
 
-# confusion matrix, for analyzing how well the model preformed
+# confusion matrix, for analyzing how well the model performed
 # Print accuracy score
 print("Accuracy Score:", accuracy_score(y_test, y_pred))
 
