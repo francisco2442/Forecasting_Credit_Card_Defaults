@@ -16,7 +16,13 @@ The model correctly predicted 81.1% of the outcomes for the credit card clients.
 3. Consider strengthening credit checks and approval for customers with a higher probability of default.
 
 ## Summary of Insights
-### Confusion Matrix Results:
+This list does not include all variables that were used in the model.
+
+
+
+
+## Metrics
+### Confusion Matrix Results
 True Negatives (No → No): **22,729**
 
 False Positives (Yes → No): **5,034**
@@ -41,9 +47,6 @@ Probability of Default = Total Defaults / Total Predictions
 
 Probability of Default = (2237 / 30000) * 100 = 7.46%
 #### Probability of Default = 7.46%
-
-## Metrics
-
 
 ## Data Visuals 
 
