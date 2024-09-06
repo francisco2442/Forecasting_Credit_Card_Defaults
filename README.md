@@ -17,6 +17,8 @@ The model correctly predicted 81.1% of the outcomes for the credit card clients.
 
 ## Summary of Insights
 This list does not include all variables that were used in the model.
+### Limit Balance
+The amount of credit in New Taiwan Dollars (including individual and family / supplementary credit.
 
 
 
