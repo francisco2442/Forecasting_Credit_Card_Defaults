@@ -19,7 +19,8 @@ False Negatives (No → Yes): 635
 True Positives (Yes → Yes): 1,602
 
 Accuracy: 0.811           
-95% CI: (0.8066, 0.8154)
+95% CI: (0.8066, 0.8154) 
+
 No Information Rate: 0.7788          
 P-Value [Acc > NIR]: < 2.2e-16 
 
