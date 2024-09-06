@@ -16,11 +16,6 @@ The model correctly predicted 81.1% of the outcomes for the credit card clients.
 3. Consider strengthening credit checks and approval for customers with a higher probability of default.
 
 ## Summary of Insights
-This list does not include all variables that were used in the model.
-### Limit Balance
-The amount of credit in New Taiwan Dollars (including individual and family / supplementary credit.
-
-
 
 
 ## Metrics
