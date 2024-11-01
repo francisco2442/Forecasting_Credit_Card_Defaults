@@ -46,4 +46,5 @@ Probability of Default = (2237 / 30000) * 100 = 7.46%
 #### Probability of Default = 7.46%
 
 ## Data Visuals 
+[Rplot.pdf](https://github.com/user-attachments/files/17603648/Rplot.pdf)
 
